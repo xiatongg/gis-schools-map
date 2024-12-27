@@ -1,0 +1,158 @@
+.container {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+#map {
+    flex: 1;
+    position: relative;
+}
+
+/* 地图控件样式 */
+.amap-scale {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    border-radius: 4px !important;
+    padding: 2px 6px !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+}
+
+.amap-toolbar {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    border-radius: 4px !important;
+    padding: 2px !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+}
+
+.amap-toolbar .amap-toolbar-item {
+    border: none !important;
+    background-color: transparent !important;
+    width: 32px !important;
+    height: 32px !important;
+    line-height: 32px !important;
+    margin: 0 2px !important;
+}
+
+.amap-toolbar .amap-toolbar-item:hover {
+    background-color: rgba(0, 0, 0, 0.05) !important;
+    border-radius: 4px !important;
+}
+
+.amap-toolbar .amap-toolbar-item i {
+    margin: 8px !important;
+    width: 16px !important;
+    height: 16px !important;
+}
+
+.school-info-panel {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    z-index: 1000;
+    max-width: 600px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+/* 添加地图标记的样式 */
+.amap-marker {
+    cursor: pointer !important;
+}
+
+.amap-marker:hover {
+    z-index: 1100 !important;
+}
+
+.sidebar {
+    width: 300px;
+    background: #f8f8f8;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.search-box {
+    margin-bottom: 20px;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.province-group {
+    margin-bottom: 10px;
+}
+
+.province-header {
+    background: #eee;
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.province-header.active .arrow {
+    transform: rotate(180deg);
+}
+
+.province-schools {
+    display: none;
+    padding: 8px 0;
+}
+
+.province-schools.active {
+    display: block;
+}
+
+.school-item {
+    padding: 8px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+.school-item:hover {
+    background: #f0f0f0;
+}
+
+.school-item small {
+    color: #666;
+    display: block;
+    margin-top: 4px;
+}
+
+/* 图层控件样式 */
+.layer-control {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-size: 13px;
+}
+
+.layer-title {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.layer-item {
+    margin: 6px 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.layer-item label {
+    cursor: pointer;
+    color: #444;
+}
+
+.layer-item input {
+    cursor: pointer;
+} 

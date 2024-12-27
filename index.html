@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>GIS考研院校地图</title>
+    <style>
+        html, body { 
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .container {
+            display: flex;
+            height: 100%;
+        }
+        #map {
+            flex: 1;
+            position: relative;
+        }
+        .sidebar {
+            width: 300px;
+            background: #f8f8f8;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        .school-info-panel {
+            position: absolute;
+            top: 80px;
+            left: 20px;
+            background: white;
+            border-radius: 4px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+            z-index: 1000;
+            max-width: 600px;
+            max-height: calc(100vh - 100px);
+            overflow-y: auto;
+            display: none;
+        }
+        .province-group {
+            margin-bottom: 10px;
+        }
+        .province-header {
+            background: #eee;
+            padding: 8px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .province-header.active .arrow {
+            transform: rotate(180deg);
+        }
+        .province-schools {
+            display: none;
+            padding: 8px 0;
+        }
+        .province-schools.active {
+            display: block;
+        }
+        .school-item {
+            padding: 8px;
+            cursor: pointer;
+            border-bottom: 1px solid #eee;
+        }
+        .school-item:hover {
+            background: #f0f0f0;
+        }
+        .school-item small {
+            color: #666;
+            display: block;
+            margin-top: 4px;
+        }
+        .map-controls {
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+            z-index: 1000;
+            display: flex;
+            gap: 5px;
+            flex-direction: column;
+        }
+        .map-control-group {
+            display: flex;
+            gap: 5px;
+        }
+        .map-control-button {
+            width: 32px;
+            height: 32px;
+            background: white;
+            border: none;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            color: #333;
+        }
+        .map-control-button.active {
+            background: #4a89dc;
+            color: white;
+        }
+        .map-control-button:hover {
+            background: #f0f0f0;
+        }
+        .map-control-button.active:hover {
+            background: #357abd;
+        }
+        .search-box {
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .search-input {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+        .search-input:focus {
+            outline: none;
+            border-color: #4a89dc;
+            box-shadow: 0 0 0 2px rgba(74, 137, 220, 0.2);
+        }
+        .search-clear {
+            position: absolute;
+            right: 8px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            color: #999;
+            font-size: 18px;
+            display: none;
+        }
+        .search-clear:hover {
+            color: #666;
+        }
+        .favorite-tab {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 10px;
+        }
+        .tab-button {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            background: #eee;
+            cursor: pointer;
+            flex: 1;
+        }
+        .tab-button.active {
+            background: #4a89dc;
+            color: white;
+        }
+        .rating-section {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+        }
+        .rating-items-container {
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+        .rating-item {
+            flex: 1;
+            text-align: center;
+        }
+        .rating-item label {
+            display: block;
+            margin-bottom: 8px;
+            color: #666;
+            font-size: 13px;
+        }
+        .rating-stars {
+            display: flex;
+            gap: 3px;
+            justify-content: center;
+        }
+        .star {
+            cursor: pointer;
+            font-size: 18px;
+            color: #ddd;
+        }
+        .star.active {
+            color: #ffd700;
+        }
+        .favorite-button {
+            margin-top: 10px;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            background: #4a89dc;
+            color: white;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .favorite-button.favorited {
+            background: #dc4a4a;
+        }
+        .favorite-button:hover {
+            opacity: 0.9;
+        }
+        .view-switch {
+            margin-bottom: 15px;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+        .view-switch-button {
+            padding: 6px 12px;
+            border: 1px solid #4a89dc;
+            border-radius: 4px;
+            background: white;
+            color: #4a89dc;
+            cursor: pointer;
+            font-size: 13px;
+        }
+        .view-switch-button.active {
+            background: #4a89dc;
+            color: white;
+        }
+        .tier-group {
+            margin-bottom: 10px;
+        }
+        .tier-header {
+            background: #4a89dc;
+            color: white;
+            padding: 8px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 4px;
+        }
+        .tier-header .arrow {
+            color: white;
+        }
+        .tier-schools {
+            display: none;
+            padding: 8px 0;
+        }
+        .tier-schools.active {
+            display: block;
+        }
+        .site-logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 10px 15px;
+            border-radius: 4px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            z-index: 1000;
+            font-size: 16px;
+            font-weight: bold;
+            color: #2c3e50;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .site-logo img {
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+    <script>
+        window._AMapSecurityConfig = {
+            securityJsCode: '35baddcb7a438e2e024fb75d1025068a'
+        }
+    </script>
+    <script src="https://webapi.amap.com/maps?v=2.0&key=35baddcb7a438e2e024fb75d1025068a&plugin=AMap.HeatMap"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="map">
+            <div class="site-logo">
+                <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='10' fill='%234a89dc'/%3E%3Cpath d='M12 6l4 4-4 4-4-4 4-4zM8 14l4 4 4-4-4 4-4-4z' fill='white'/%3E%3C/svg%3E" alt="logo">
+                GIS考研院校可视化专题图
+            </div>
+            <div id="schoolInfo" class="school-info-panel"></div>
+            <div class="map-controls">
+                <div class="map-control-group">
+                    <button class="map-control-button" id="satelliteToggle" title="切换卫星图">🛰️</button>
+                    <button class="map-control-button" id="heatmapToggle" title="切换热力图">🌡️</button>
+                </div>
+                <div class="map-control-group">
+                    <button class="map-control-button" id="zoomIn" title="放大">+</button>
+                    <button class="map-control-button" id="zoomOut" title="缩小">-</button>
+                    <button class="map-control-button" id="zoomFit" title="缩放至全国范围">⟲</button>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <h2>GIS考研院校列表</h2>
+            <div class="favorite-tab">
+                <button class="tab-button active" id="allSchools">所有院校</button>
+                <button class="tab-button" id="favorites">我的收藏</button>
+            </div>
+            <div class="view-switch">
+                <button class="view-switch-button active" id="viewByProvince">按省份查看</button>
+                <button class="view-switch-button" id="viewByTier">按层级查看</button>
+                <button class="view-switch-button" id="clearFavorites" style="display: none; font-size: 12px; padding: 4px 8px; background-color: #e74c3c; color: white;">清空收藏</button>
+            </div>
+            <div class="search-box">
+                <input type="text" class="search-input" id="searchInput" placeholder="搜索院校名称...">
+                <span class="search-clear" id="searchClear">×</span>
+            </div>
+            <div id="schoolList"></div>
+        </div>
+    </div>
+
+    <script>
+        let map;
+        let schools = [];
+        let favorites = JSON.parse(localStorage.getItem('favorites') || '{}');
+        let currentView = 'province'; // 'province' or 'tier'
+        let satelliteLayer;
+        let heatmap;
+        let isHeatmapVisible = false;
+        let isSatelliteVisible = false;
+        let currentMarker = null; // 跟踪当前选中的标记
+        let currentHighlightedMarker = null; // 添加全局变量用于跟踪当前高亮的标记
+
+        // 定义院校层级
+        const SCHOOL_TIERS = {
+            '985': [
+                '北京大学', '清华大学', '浙江大学', '复旦大学', '南京大学', 
+                '中山大学', '武汉大学', '华中科技大学', '同济大学', '东北大学',
+                '华东师范大学', '北京师范大学', '兰州大学'
+            ],
+            '211': [
+                '北京大学', '清华大学', '浙江大学', '复旦大学', '南京大学', 
+                '中山大学', '武汉大学', '华中科技大学', '同济大学', '东北大学',
+                '华东师范大学', '北京师范大学', '中国地质大学(武汉)', '中国矿业大学',
+                '河海大学', '南京师范大学', '东北师范大学', '云南大学', '西北大学',
+                '陕西师范大学', '兰州大学', '北京林业大学', '中国地质大学(北京)',
+                '宁夏大学', '合肥工业大学', '华南师范大学', '新疆大学', '石河子大学',
+                '郑州大学', '华中师范大学', '福州大学', '西南大学', '长安大学'
+            ]
+        };
+
+        // 获取学校层级
+        function getSchoolTier(schoolName) {
+            const tiers = [];
+            // 精确匹配校名称
+            if (SCHOOL_TIERS['985'].includes(schoolName)) {
+                tiers.push('985');
+            }
+            if (SCHOOL_TIERS['211'].includes(schoolName)) {
+                tiers.push('211');
+            }
+            return tiers;
+        }
+
+        // 从JSON文件加载数据
+        async function loadData() {
+            try {
+                const response = await fetch('output/gis_schools.json');
+                schools = await response.json();
+                console.log('加载了 ' + schools.length + ' 所学校');
+                initMap();
+                createSchoolList();
+                initSearch();  // 初始化搜索功能
+            } catch (error) {
+                console.error('数据加载失败:', error);
+            }
+        }
+
+        // 显示学校信息
+        function showSchoolInfo(school) {
+            const infoPanel = document.getElementById('schoolInfo');
+            const isFavorite = favorites[school.name];
+            
+            infoPanel.innerHTML = `
+                <div style="padding: 20px; font-size: 14px;">
+                    <div style="display: flex; justify-content: space-between; align-items: start;">
+                        <h3 style="margin: 0; color: #2c3e50;">
+                            ${school.name}
+                            ${getSchoolTier(school.name).map(tier => 
+                                `<span style="font-size: 12px; padding: 2px 6px; margin-left: 8px; border-radius: 3px; background-color: ${tier === '985' ? '#e74c3c' : '#3498db'}; color: white;">${tier}</span>`
+                            ).join('')}
+                        </h3>
+                        <button class="favorite-button ${isFavorite ? 'favorited' : ''}" onclick="toggleFavorite('${school.name}')">
+                            ${isFavorite ? '★ 已收藏' : '☆ 收藏'}
+                        </button>
+                    </div>
+                    <p style="margin: 10px 0; color: #666;">${school.province}，招生人数：${school.total_students}人</p>
+                    
+                    ${isFavorite ? `
+                    <div class="rating-section">
+                        <h4 style="margin: 0 0 15px 0; color: #2c3e50;">院校评分</h4>
+                        <div class="rating-items-container">
+                            <div class="rating-item">
+                                <label>地理位置</label>
+                                <div class="rating-stars" data-type="location">
+                                    ${generateStars(isFavorite.locationRating || 0)}
+                                </div>
+                            </div>
+                            <div class="rating-item">
+                                <label>院校层次</label>
+                                <div class="rating-stars" data-type="level">
+                                    ${generateStars(isFavorite.levelRating || 0)}
+                                </div>
+                            </div>
+                            <div class="rating-item">
+                                <label>录取难度</label>
+                                <div class="rating-stars" data-type="difficulty">
+                                    ${generateStars(isFavorite.difficultyRating || 0)}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rating-item" style="margin-top: 15px;">
+                            <textarea style="width: 100%; padding: 8px; margin-top: 5px;" 
+                                placeholder="添加备注..."
+                                onchange="updateNote('${school.name}', this.value)">${isFavorite.note || ''}</textarea>
+                        </div>
+                    </div>
+                    ` : ''}
+
+                    <div style="border-top: 1px solid #eee; padding-top: 10px;">
+                        <h4 style="margin: 0 0 8px 0; color: #2c3e50;">招生专业信息：</h4>
+                        <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
+                            <thead>
+                                <tr style="background-color: #f8f9fa;">
+                                    <th style="border: 1px solid #e9ecef; padding: 8px; text-align: left;">院系</th>
+                                    <th style="border: 1px solid #e9ecef; padding: 8px; text-align: left;">专业</th>
+                                    <th style="border: 1px solid #e9ecef; padding: 8px; text-align: left;">研究方向</th>
+                                    <th style="border: 1px solid #e9ecef; padding: 8px; text-align: left;">招生人数</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${school.departments.map(dept => `
+                                    <tr>
+                                        <td style="border: 1px solid #e9ecef; padding: 8px;">${dept.department}</td>
+                                        <td style="border: 1px solid #e9ecef; padding: 8px;">${dept.specialty}</td>
+                                        <td style="border: 1px solid #e9ecef; padding: 8px;">${dept.field}</td>
+                                        <td style="border: 1px solid #e9ecef; padding: 8px;">${dept.number}</td>
+                                    </tr>
+                                `).join('')}
+                            </tbody>
+                        </table>
+                        <h4 style="margin: 16px 0 8px 0; color: #2c3e50;">考试科目：</h4>
+                        <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
+                            <tbody>
+                                ${school.departments.map(dept => `
+                                    <tr>
+                                        <td colspan="4" style="border: 1px solid #e9ecef; padding: 8px; background-color: #f8f9fa;">
+                                            <strong>${dept.department} - ${dept.field}</strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: 1px solid #e9ecef; padding: 8px;">${dept.subjects.subject1}</td>
+                                        <td style="border: 1px solid #e9ecef; padding: 8px;">${dept.subjects.subject2}</td>
+                                        <td style="border: 1px solid #e9ecef; padding: 8px;">${dept.subjects.subject3}</td>
+                                        <td style="border: 1px solid #e9ecef; padding: 8px;">${dept.subjects.subject4}</td>
+                                    </tr>
+                                `).join('')}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            `;
+            
+            // 添加评分事件监听
+            if (isFavorite) {
+                infoPanel.querySelectorAll('.rating-stars').forEach(container => {
+                    container.querySelectorAll('.star').forEach((star, index) => {
+                        star.addEventListener('click', () => {
+                            const type = container.dataset.type;
+                            updateRating(school.name, type, index + 1);
+                        });
+                    });
+                });
+            }
+            
+            infoPanel.style.display = 'block';
+
+            // 高亮对应的标记
+            const markers = map.getAllOverlays('marker');
+            if (markers) {
+                markers.forEach(marker => {
+                    if (marker.getTitle() === school.name) {
+                        // 如果之前有高亮的标记，先取消高亮
+                        if (currentHighlightedMarker && currentHighlightedMarker !== marker) {
+                            const prevTiers = getSchoolTier(currentHighlightedMarker.getTitle());
+                            const prevTier = prevTiers.includes('985') ? '985' : (prevTiers.includes('211') ? '211' : 'normal');
+                            updateMarkerState(currentHighlightedMarker, false, prevTier);
+                        }
+                        // 高亮当前标记
+                        const tiers = getSchoolTier(school.name);
+                        const tier = tiers.includes('985') ? '985' : (tiers.includes('211') ? '211' : 'normal');
+                        updateMarkerState(marker, true, tier);
+                        currentHighlightedMarker = marker;
+                    }
+                });
+            }
+        }
+
+        // 生成星级评分HTML
+        function generateStars(rating) {
+            return Array(5).fill(0).map((_, i) => 
+                `<span class="star ${i < rating ? 'active' : ''}" data-rating="${i + 1}">★</span>`
+            ).join('');
+        }
+
+        // 切换收藏状态
+        function toggleFavorite(schoolName) {
+            if (favorites[schoolName]) {
+                delete favorites[schoolName];
+            } else {
+                favorites[schoolName] = {
+                    locationRating: 0,
+                    levelRating: 0,
+                    difficultyRating: 0,
+                    note: ''
+                };
+            }
+            localStorage.setItem('favorites', JSON.stringify(favorites));
+            
+            // 重新显示学校信息
+            const school = schools.find(s => s.name === schoolName);
+            if (school) {
+                showSchoolInfo(school);
+            }
+            
+            // 如果在收藏标签，刷新表
+            if (document.getElementById('favorites').classList.contains('active')) {
+                createSchoolList(true);
+            }
+        }
+
+        // 更新评分
+        function updateRating(schoolName, type, rating) {
+            if (favorites[schoolName]) {
+                favorites[schoolName][type + 'Rating'] = rating;
+                localStorage.setItem('favorites', JSON.stringify(favorites));
+                
+                // 更新星星显示
+                const stars = document.querySelector(`[data-type="${type}"]`).children;
+                Array.from(stars).forEach((star, index) => {
+                    star.classList.toggle('active', index < rating);
+                });
+            }
+        }
+
+        // 更新备注
+        function updateNote(schoolName, note) {
+            if (favorites[schoolName]) {
+                favorites[schoolName].note = note;
+                localStorage.setItem('favorites', JSON.stringify(favorites));
+            }
+        }
+
+        // 更新标记状态
+        function updateMarkerState(marker, isHighlighted, tier) {
+            if (isHighlighted) {
+                marker.setIcon(createHighlightIcon(tier));
+                marker.setOffset(new AMap.Pixel(-20, -20));
+            } else {
+                marker.setIcon(createNormalIcon(tier));
+                marker.setOffset(new AMap.Pixel(-16, -16));
+            }
+        }
+
+        // 创建高亮图标
+        function createHighlightIcon(tier) {
+            const color = tier === '985' ? '#e74c3c' : (tier === '211' ? '#3498db' : '#95a5a6');
+            const svg = `
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40">
+                    <circle cx="20" cy="20" r="18" fill="${color}" stroke="white" stroke-width="2"/>
+                    ${tier !== 'normal' ? `<text x="20" y="25" text-anchor="middle" fill="white" font-size="12">${tier}</text>` : 
+                    `<circle cx="20" cy="20" r="6" fill="white"/>`}
+                </svg>
+            `;
+            return new AMap.Icon({
+                image: 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg),
+                size: new AMap.Size(40, 40),
+                imageSize: new AMap.Size(40, 40)
+            });
+        }
+
+        // 创建普通图标
+        function createNormalIcon(tier) {
+            const color = tier === '985' ? '#e74c3c' : (tier === '211' ? '#3498db' : '#95a5a6');
+            const svg = `
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+                    <circle cx="16" cy="16" r="14" fill="${color}" stroke="white" stroke-width="2"/>
+                    ${tier !== 'normal' ? `<text x="16" y="20" text-anchor="middle" fill="white" font-size="10">${tier}</text>` : 
+                    `<circle cx="16" cy="16" r="5" fill="white"/>`}
+                </svg>
+            `;
+            return new AMap.Icon({
+                image: 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg),
+                size: new AMap.Size(32, 32),
+                imageSize: new AMap.Size(32, 32)
+            });
+        }
+
+        // 初始化地图
+        function initMap() {
+            map = new AMap.Map('map', {
+                zoom: 5,
+                center: [104.1954, 35.8616]
+            });
+
+            // 初始化卫星图层
+            satelliteLayer = new AMap.TileLayer.Satellite();
+            
+            // 初始化热力图
+            heatmap = new AMap.HeatMap(map, {
+                radius: 25,
+                opacity: [0, 0.8],
+                gradient: {
+                    0.2: '#8fce00',  // 浅绿色
+                    0.4: '#4cc417',  // 中绿色
+                    0.6: '#ffd700',  // 黄色
+                    0.8: '#ff6b6b',  // 浅红色
+                    1.0: '#cc1100'   // 深红色
+                },
+                zIndex: 120
+            });
+
+            // 准备热力图数据
+            const heatmapData = schools.map(school => ({
+                lng: school.location.longitude,
+                lat: school.location.latitude,
+                count: parseInt(school.total_students) || 1
+            })).filter(data => data.count > 0);
+
+            heatmap.setDataSet({
+                data: heatmapData,
+                max: Math.max(...heatmapData.map(d => d.count))
+            });
+            heatmap.hide();
+
+            // 添加控件事件监听
+            document.getElementById('zoomIn').addEventListener('click', () => {
+                map.setZoom(map.getZoom() + 1);
+            });
+
+            document.getElementById('zoomOut').addEventListener('click', () => {
+                map.setZoom(map.getZoom() - 1);
+            });
+
+            document.getElementById('zoomFit').addEventListener('click', () => {
+                map.setZoomAndCenter(5, [104.1954, 35.8616]);
+            });
+
+            // 卫星图切换
+            document.getElementById('satelliteToggle').addEventListener('click', () => {
+                const button = document.getElementById('satelliteToggle');
+                if (isSatelliteVisible) {
+                    satelliteLayer.setMap(null);
+                    button.classList.remove('active');
+                } else {
+                    satelliteLayer.setMap(map);
+                    button.classList.add('active');
+                }
+                isSatelliteVisible = !isSatelliteVisible;
+            });
+
+            // 热力图切换
+            document.getElementById('heatmapToggle').addEventListener('click', () => {
+                const button = document.getElementById('heatmapToggle');
+                if (isHeatmapVisible) {
+                    heatmap.hide();
+                    button.classList.remove('active');
+                    // 恢复所有标记的显示
+                    const markers = map.getAllOverlays('marker');
+                    if (markers) {
+                        markers.forEach(marker => {
+                            marker.show();
+                        });
+                    }
+                } else {
+                    // 隐藏所有标记
+                    const markers = map.getAllOverlays('marker');
+                    if (markers) {
+                        markers.forEach(marker => {
+                            marker.hide();
+                        });
+                    }
+                    // 显示热力图
+                    heatmap.show();
+                    button.classList.add('active');
+                }
+                isHeatmapVisible = !isHeatmapVisible;
+            });
+
+            // 添加标记
+            schools.forEach(school => {
+                if (school.location && school.location.longitude && school.location.latitude) {
+                    const tiers = getSchoolTier(school.name);
+                    let tier = tiers.includes('985') ? '985' : (tiers.includes('211') ? '211' : 'normal');
+                    
+                    let marker = new AMap.Marker({
+                        map: map,
+                        position: [school.location.longitude, school.location.latitude],
+                        title: school.name,
+                        icon: createNormalIcon(tier),
+                        offset: new AMap.Pixel(-16, -16),
+                        clickable: true
+                    });
+
+                    // 单击显示信息
+                    marker.on('click', () => {
+                        showSchoolInfo(school);
+                        document.getElementById('schoolInfo').style.display = 'block';
+                    });
+
+                    // 双击缩放到学校位置
+                    marker.on('dblclick', () => {
+                        // 计算偏移后的中心点，向左偏移以避免被信息框遮挡
+                        const offset = -0.025;  // 经度偏移量
+                        map.setZoomAndCenter(14, [school.location.longitude + offset, school.location.latitude]);
+                    });
+                }
+            });
+
+            // 点击地图白处关闭信息面板
+            map.on('click', (e) => {
+                const target = e.target;
+                // 只有在点击地图本身，而不是标记时才关闭信息面板
+                if (target instanceof AMap.Map) {
+                    document.getElementById('schoolInfo').style.display = 'none';
+                    // 取消当前标记的高亮
+                    if (currentHighlightedMarker) {
+                        const tiers = getSchoolTier(currentHighlightedMarker.getTitle());
+                        const tier = tiers.includes('985') ? '985' : (tiers.includes('211') ? '211' : 'normal');
+                        updateMarkerState(currentHighlightedMarker, false, tier);
+                        currentHighlightedMarker = null;
+                    }
+                }
+            });
+        }
+
+        // 修改createSchoolList函数以支持不同的视图模式
+        function createSchoolList(showFavorites = false) {
+            const schoolList = document.getElementById('schoolList');
+            schoolList.innerHTML = '';
+            
+            let filteredSchools = showFavorites 
+                ? schools.filter(school => favorites[school.name])
+                : schools;
+
+            if (currentView === 'province') {
+                createProvinceView(filteredSchools);
+            } else {
+                createTierView(filteredSchools);
+            }
+        }
+
+        // 按省份视图
+        function createProvinceView(filteredSchools) {
+            const schoolsByProvince = filteredSchools.reduce((acc, school) => {
+                const province = school.province || '其他';
+                if (!acc[province]) acc[province] = [];
+                acc[province].push(school);
+                return acc;
+            }, {});
+
+            const sortedProvinces = Object.keys(schoolsByProvince).sort();
+            
+            sortedProvinces.forEach(province => {
+                const provinceDiv = document.createElement('div');
+                provinceDiv.className = 'province-group';
+                
+                const headerDiv = document.createElement('div');
+                headerDiv.className = 'province-header';
+                headerDiv.innerHTML = `
+                    <span>${province}</span>
+                    <span class="arrow">▼</span>
+                `;
+                
+                const schoolsDiv = document.createElement('div');
+                schoolsDiv.className = 'province-schools';
+                
+                schoolsByProvince[province].forEach(school => {
+                    const schoolDiv = createSchoolItem(school);
+                    schoolsDiv.appendChild(schoolDiv);
+                });
+                
+                headerDiv.addEventListener('click', () => {
+                    headerDiv.classList.toggle('active');
+                    schoolsDiv.classList.toggle('active');
+                });
+                
+                provinceDiv.appendChild(headerDiv);
+                provinceDiv.appendChild(schoolsDiv);
+                schoolList.appendChild(provinceDiv);
+            });
+        }
+
+        // 按层级视图
+        function createTierView(filteredSchools) {
+            const schoolsByTier = {
+                '985': [],
+                '211': [],
+                '普通院校': []
+            };
+
+            filteredSchools.forEach(school => {
+                const tiers = getSchoolTier(school.name);
+                if (tiers.length === 0) {
+                    schoolsByTier['普通院校'].push(school);
+                } else {
+                    // 将学校添加到其最高层级
+                    if (tiers.includes('985')) {
+                        schoolsByTier['985'].push(school);
+                    } else if (tiers.includes('211')) {
+                        schoolsByTier['211'].push(school);
+                    }
+                }
+            });
+
+            const tiers = ['985', '211', '普通院校'];
+            
+            tiers.forEach(tier => {
+                if (schoolsByTier[tier].length === 0) return;
+
+                const tierDiv = document.createElement('div');
+                tierDiv.className = 'tier-group';
+                
+                const headerDiv = document.createElement('div');
+                headerDiv.className = 'tier-header';
+                headerDiv.innerHTML = `
+                    <span>${tier}（${schoolsByTier[tier].length}所）</span>
+                    <span class="arrow">▼</span>
+                `;
+                
+                const schoolsDiv = document.createElement('div');
+                schoolsDiv.className = 'tier-schools';
+                
+                schoolsByTier[tier].sort((a, b) => a.name.localeCompare(b.name)).forEach(school => {
+                    const schoolDiv = createSchoolItem(school);
+                    schoolsDiv.appendChild(schoolDiv);
+                });
+                
+                headerDiv.addEventListener('click', () => {
+                    headerDiv.classList.toggle('active');
+                    schoolsDiv.classList.toggle('active');
+                });
+                
+                tierDiv.appendChild(headerDiv);
+                tierDiv.appendChild(schoolsDiv);
+                schoolList.appendChild(tierDiv);
+            });
+        }
+
+        // 创建学校列表项
+        function createSchoolItem(school) {
+            const schoolDiv = document.createElement('div');
+            schoolDiv.className = 'school-item';
+            const tiers = getSchoolTier(school.name);
+            const tierLabels = tiers.length > 0 
+                ? `<small style="color: #4a89dc;">[${tiers.join('/')}]</small>` 
+                : '';
+            
+            schoolDiv.innerHTML = `
+                <div>${school.name} ${tierLabels}</div>
+                <small>招生人数：${school.total_students || '未知'}人</small>
+            `;
+            
+            // 单击时缩放到学校位置并显示信息
+            schoolDiv.addEventListener('click', () => {
+                if (school.location && school.location.longitude && school.location.latitude) {
+                    // 计算偏移后的中心点，向左偏移以避免被信息框遮挡
+                    const offset = -0.025;  // 经度偏移量
+                    map.setZoomAndCenter(14, [school.location.longitude + offset, school.location.latitude]);
+                    showSchoolInfo(school);
+                    document.getElementById('schoolInfo').style.display = 'block';
+                }
+            });
+            
+            return schoolDiv;
+        }
+
+        // 搜功能
+        function initSearch() {
+            const searchInput = document.getElementById('searchInput');
+            const searchClear = document.getElementById('searchClear');
+            
+            // 处理搜索
+            function handleSearch() {
+                const searchText = searchInput.value.toLowerCase();
+                const showFavorites = document.getElementById('favorites').classList.contains('active');
+                const filteredSchools = showFavorites 
+                    ? schools.filter(school => favorites[school.name])
+                    : schools;
+
+                if (currentView === 'province') {
+                    // 处理按省份视图的搜索
+                    document.querySelectorAll('.province-group').forEach(group => {
+                        const schoolDivs = group.querySelectorAll('.school-item');
+                        let hasVisibleSchools = false;
+                        
+                        schoolDivs.forEach(div => {
+                            const schoolName = div.querySelector('div').textContent.toLowerCase();
+                            const isVisible = schoolName.includes(searchText);
+                            div.style.display = isVisible ? 'block' : 'none';
+                            if (isVisible) hasVisibleSchools = true;
+                        });
+                        
+                        group.style.display = hasVisibleSchools ? 'block' : 'none';
+                        
+                        // 如果有搜索文本，展开包含匹配学校的省份
+                        if (searchText && hasVisibleSchools) {
+                            const schoolsDiv = group.querySelector('.province-schools');
+                            const header = group.querySelector('.province-header');
+                            schoolsDiv.classList.add('active');
+                            header.classList.add('active');
+                        }
+                    });
+                } else {
+                    // 处理按层级视图的搜索
+                    document.querySelectorAll('.tier-group').forEach(group => {
+                        const schoolDivs = group.querySelectorAll('.school-item');
+                        let hasVisibleSchools = false;
+                        
+                        schoolDivs.forEach(div => {
+                            const schoolName = div.querySelector('div').textContent.toLowerCase();
+                            const isVisible = schoolName.includes(searchText);
+                            div.style.display = isVisible ? 'block' : 'none';
+                            if (isVisible) hasVisibleSchools = true;
+                        });
+                        
+                        group.style.display = hasVisibleSchools ? 'block' : 'none';
+                        
+                        // 如果有搜索文本，展开包含匹配学校的层级
+                        if (searchText && hasVisibleSchools) {
+                            const schoolsDiv = group.querySelector('.tier-schools');
+                            const header = group.querySelector('.tier-header');
+                            schoolsDiv.classList.add('active');
+                            header.classList.add('active');
+                        }
+                    });
+                }
+            }
+
+            // 清除搜索
+            function clearSearch() {
+                searchInput.value = '';
+                searchInput.focus();
+                
+                // 重置所有分组的显示状态
+                if (currentView === 'province') {
+                    document.querySelectorAll('.province-group').forEach(group => {
+                        group.style.display = 'block';
+                        const schoolsDiv = group.querySelector('.province-schools');
+                        const header = group.querySelector('.province-header');
+                        schoolsDiv.classList.remove('active');
+                        header.classList.remove('active');
+                    });
+                } else {
+                    document.querySelectorAll('.tier-group').forEach(group => {
+                        group.style.display = 'block';
+                        const schoolsDiv = group.querySelector('.tier-schools');
+                        const header = group.querySelector('.tier-header');
+                        schoolsDiv.classList.remove('active');
+                        header.classList.remove('active');
+                    });
+                }
+                
+                // 重置所有学校项的显示状态
+                document.querySelectorAll('.school-item').forEach(div => {
+                    div.style.display = 'block';
+                });
+            }
+
+            // 事件监听
+            searchInput.addEventListener('input', handleSearch);
+            searchClear.addEventListener('click', clearSearch);
+            
+            // 添加快捷键支持
+            searchInput.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') {
+                    clearSearch();
+                }
+            });
+        }
+
+        // 添加标签切换功能
+        document.getElementById('allSchools').addEventListener('click', function() {
+            this.classList.add('active');
+            document.getElementById('favorites').classList.remove('active');
+            document.getElementById('clearFavorites').style.display = 'none';
+            createSchoolList(false);
+        });
+
+        document.getElementById('favorites').addEventListener('click', function() {
+            this.classList.add('active');
+            document.getElementById('allSchools').classList.remove('active');
+            document.getElementById('clearFavorites').style.display = 'inline-block';
+            createSchoolList(true);
+        });
+
+        // 添加图切换功能
+        document.getElementById('viewByProvince').addEventListener('click', function() {
+            if (currentView === 'province') return;
+            this.classList.add('active');
+            document.getElementById('viewByTier').classList.remove('active');
+            currentView = 'province';
+            createSchoolList(document.getElementById('favorites').classList.contains('active'));
+        });
+
+        document.getElementById('viewByTier').addEventListener('click', function() {
+            if (currentView === 'tier') return;
+            this.classList.add('active');
+            document.getElementById('viewByProvince').classList.remove('active');
+            currentView = 'tier';
+            createSchoolList(document.getElementById('favorites').classList.contains('active'));
+        });
+
+        // 添加清空收藏功能
+        document.getElementById('clearFavorites').addEventListener('click', function() {
+            if (confirm('确定要清空所有收藏吗？此操作不可恢复。')) {
+                // 清空收藏数据
+                favorites = {};
+                localStorage.setItem('favorites', JSON.stringify(favorites));
+                
+                // 如果当前在收藏页面，刷新列表
+                if (document.getElementById('favorites').classList.contains('active')) {
+                    createSchoolList(true);
+                }
+                
+                // 如果信息面板正在显示，关闭它
+                document.getElementById('schoolInfo').style.display = 'none';
+                
+                // 取消当前标记的高亮
+                if (currentHighlightedMarker) {
+                    const tiers = getSchoolTier(currentHighlightedMarker.getTitle());
+                    const tier = tiers.includes('985') ? '985' : (tiers.includes('211') ? '211' : 'normal');
+                    updateMarkerState(currentHighlightedMarker, false, tier);
+                    currentHighlightedMarker = null;
+                }
+            }
+        });
+
+        // 页面加载完成后执行
+        document.addEventListener('DOMContentLoaded', loadData);
+    </script>
+</body>
+</html> 

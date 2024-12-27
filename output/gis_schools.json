@@ -1,0 +1,3087 @@
+[
+  {
+    "name": "合肥工业大学",
+    "province": "安徽省",
+    "location": {
+      "longitude": 117.288227,
+      "latitude": 31.848704
+    },
+    "total_students": 9.0,
+    "departments": [
+      {
+        "department": "(009)资源与环境工程学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "专业：9(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(860)地理信息系统原理"
+        }
+      }
+    ]
+  },
+  {
+    "name": "安徽师范大学",
+    "province": "安徽省",
+    "location": {
+      "longitude": 117.252568,
+      "latitude": 31.865557
+    },
+    "total_students": 58.0,
+    "departments": [
+      {
+        "department": "(012)地理与旅游学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "专业：58(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(602)高等数学",
+          "subject4": "(918)地理学综合"
+        }
+      }
+    ]
+  },
+  {
+    "name": "北京大学",
+    "province": "北京市",
+    "location": {
+      "longitude": 116.302163,
+      "latitude": 39.994026
+    },
+    "total_students": 3.0,
+    "departments": [
+      {
+        "department": "(012)地球与空间科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)空间分析与智能理解",
+        "number": "专业：3(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(301)数学（一）",
+          "subject4": "(856)地理信息系统"
+        }
+      },
+      {
+        "department": "(012)地球与空间科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)高性能地学计算",
+        "number": "专业：3(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(301)数学（一）",
+          "subject4": "(856)地理信息系统"
+        }
+      },
+      {
+        "department": "(012)地球与空间科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(04)数字地球与智慧城市",
+        "number": "专业：3(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(301)数学（一）",
+          "subject4": "(856)地理信息系统"
+        }
+      },
+      {
+        "department": "(012)地球与空间科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(05)三维地理信息系统",
+        "number": "专业：3(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(301)数学（一）",
+          "subject4": "(856)地理信息系统"
+        }
+      },
+      {
+        "department": "(012)地球与空间科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(06)地理信息系统建模与应用",
+        "number": "专业：3(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(301)数学（一）",
+          "subject4": "(856)地理信息系统"
+        }
+      },
+      {
+        "department": "(012)地球与空间科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(07)地理信息系统工程",
+        "number": "专业：3(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(301)数学（一）",
+          "subject4": "(856)地理信息系统"
+        }
+      },
+      {
+        "department": "(012)地球与空间科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(08)水文地理空间大数据分析",
+        "number": "专业：3(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(301)数学（一）",
+          "subject4": "(856)地理信息系统"
+        }
+      }
+    ]
+  },
+  {
+    "name": "北京林业大学",
+    "province": "北京市",
+    "location": {
+      "longitude": 116.335228,
+      "latitude": 40.001161
+    },
+    "total_students": 15.0,
+    "departments": [
+      {
+        "department": "(001)林学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)生态地理大数据",
+        "number": "专业：8(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(807)地理学基础"
+        }
+      },
+      {
+        "department": "(001)林学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)生态环境遥感",
+        "number": "专业：8(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(807)地理学基础"
+        }
+      },
+      {
+        "department": "(008)水土保持学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)生态地理大数据",
+        "number": "专业：7(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(807)地理学基础"
+        }
+      },
+      {
+        "department": "(008)水土保持学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)3S技术集成开发与应用",
+        "number": "专业：7(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(807)地理学基础"
+        }
+      },
+      {
+        "department": "(008)水土保持学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)资源环境遥感",
+        "number": "专业：7(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(807)地理学基础"
+        }
+      }
+    ]
+  },
+  {
+    "name": "北京师范大学",
+    "province": "北京市",
+    "location": {
+      "longitude": 116.358271,
+      "latitude": 39.963278
+    },
+    "total_students": 19.0,
+    "departments": [
+      {
+        "department": "(039)地理科学学部",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)遥感机理",
+        "number": "专业：19(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(830)地理学基础"
+        }
+      },
+      {
+        "department": "(039)地理科学学部",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)遥感定量反演",
+        "number": "专业：19(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(830)地理学基础"
+        }
+      },
+      {
+        "department": "(039)地理科学学部",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)遥感应用",
+        "number": "专业：19(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(830)地理学基础"
+        }
+      },
+      {
+        "department": "(039)地理科学学部",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(04)地理信息系统理论与方法",
+        "number": "专业：19(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(830)地理学基础"
+        }
+      },
+      {
+        "department": "(039)地理科学学部",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(05)空间信息分析",
+        "number": "专业：19(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(830)地理学基础"
+        }
+      },
+      {
+        "department": "(039)地理科学学部",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(06)地理信息系统应用",
+        "number": "专业：19(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(830)地理学基础"
+        }
+      }
+    ]
+  },
+  {
+    "name": "首都师范大学",
+    "province": "北京市",
+    "location": {
+      "longitude": 116.317216,
+      "latitude": 39.922945
+    },
+    "total_students": 33.0,
+    "departments": [
+      {
+        "department": "(021)城市环境过程和数字模拟国家重点实验室培育基地",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)三维空间信息获取与建模技术",
+        "number": "专业：33(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(601)高等数学(通用)",
+          "subject4": "(835)地理信息系统与遥感概论"
+        }
+      },
+      {
+        "department": "(021)城市环境过程和数字模拟国家重点实验室培育基地",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)遥感技术与地学应用",
+        "number": "专业：33(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(601)高等数学(通用)",
+          "subject4": "(835)地理信息系统与遥感概论"
+        }
+      },
+      {
+        "department": "(021)城市环境过程和数字模拟国家重点实验室培育基地",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)地理信息系统技术与应用",
+        "number": "专业：33(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(601)高等数学(通用)",
+          "subject4": "(835)地理信息系统与遥感概论"
+        }
+      },
+      {
+        "department": "(021)城市环境过程和数字模拟国家重点实验室培育基地",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(04)生态水文学及水资源管理信息系统",
+        "number": "专业：33(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(601)高等数学(通用)",
+          "subject4": "(835)地理信息系统与遥感概论"
+        }
+      },
+      {
+        "department": "(021)城市环境过程和数字模拟国家重点实验室培育基地",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(05)人工智能及地学应用",
+        "number": "专业：33(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(601)高等数学(通用)",
+          "subject4": "(835)地理信息系统与遥感概论"
+        }
+      }
+    ]
+  },
+  {
+    "name": "中国地质大学(北京)",
+    "province": "北京市",
+    "location": {
+      "longitude": 116.342732,
+      "latitude": 39.989992
+    },
+    "total_students": 4.0,
+    "departments": [
+      {
+        "department": "(301)地球科学与资源学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "专业：4(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(610)高等数学",
+          "subject4": "(809)综合地质学"
+        }
+      }
+    ]
+  },
+  {
+    "name": "北京联合大学",
+    "province": "北京市",
+    "location": {
+      "longitude": 116.420813,
+      "latitude": 39.989488
+    },
+    "total_students": 10.0,
+    "departments": [
+      {
+        "department": "(101)应用文理学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "专业：10(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(705)地理学基础",
+          "subject4": "(811)地理学综合"
+        }
+      }
+    ]
+  },
+  {
+    "name": "中国科学院大学",
+    "province": "北京市",
+    "location": {
+      "longitude": 116.373935,
+      "latitude": 40.0022
+    },
+    "total_students": 6.0,
+    "departments": [
+      {
+        "department": "(060)地理科学与资源研究所",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)地理信息技术",
+        "number": "研究方向：0(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(864)程序设计"
+        }
+      },
+      {
+        "department": "(060)地理科学与资源研究所",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)地理信息科学",
+        "number": "研究方向：4(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(839)地理信息系统"
+        }
+      },
+      {
+        "department": "(060)地理科学与资源研究所",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)遥感智能分析",
+        "number": "研究方向：3(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(843)遥感概论"
+        }
+      },
+      {
+        "department": "(061)南京地理与湖泊研究所",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)地理信息系统与专题制图",
+        "number": "专业：1(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(843)遥感概论"
+        }
+      },
+      {
+        "department": "(061)南京地理与湖泊研究所",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)环境遥感与应用",
+        "number": "专业：1(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(843)遥感概论"
+        }
+      },
+      {
+        "department": "(062)东北地理与农业生态研究所",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)遥感技术及应用",
+        "number": "专业：4(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(602)高等数学(乙)",
+          "subject4": "(843)遥感概论"
+        }
+      },
+      {
+        "department": "(063)成都山地灾害与环境研究所",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)山地遥感与地理信息系统",
+        "number": "专业：1(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(843)遥感概论"
+        }
+      }
+    ]
+  },
+  {
+    "name": "福州大学",
+    "province": "福建省",
+    "location": {
+      "longitude": 119.190229,
+      "latitude": 26.060344
+    },
+    "total_students": 34.0,
+    "departments": [
+      {
+        "department": "(006)环境与安全工程学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "专业：9(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(851)地理科学导论"
+        }
+      },
+      {
+        "department": "(055)数字中国研究院（福建）",
+        "specialty": "(070500)地理学",
+        "field": "(02)地图学与地理信息系统",
+        "number": "专业：25(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(896)地理信息科学"
+        }
+      }
+    ]
+  },
+  {
+    "name": "福建农林大学",
+    "province": "福建省",
+    "location": {
+      "longitude": 119.233526,
+      "latitude": 26.085989
+    },
+    "total_students": 5.0,
+    "departments": [
+      {
+        "department": "(004)林学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)地理信息系统应用",
+        "number": "专业：5(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(613)数理统计",
+          "subject4": "(834)景观生态学"
+        }
+      },
+      {
+        "department": "(004)林学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)资源与环境遥感监测",
+        "number": "专业：5(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(613)数理统计",
+          "subject4": "(834)景观生态学"
+        }
+      }
+    ]
+  },
+  {
+    "name": "福建师范大学",
+    "province": "福建省",
+    "location": {
+      "longitude": 119.305711,
+      "latitude": 26.040715
+    },
+    "total_students": 15.0,
+    "departments": [
+      {
+        "department": "(024)地理科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)地理信息系统应用",
+        "number": "专业：15(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(634)自然地理学",
+          "subject4": "(842)人文地理学"
+        }
+      },
+      {
+        "department": "(024)地理科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)资源与环境遥感",
+        "number": "专业：15(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(634)自然地理学",
+          "subject4": "(842)人文地理学"
+        }
+      }
+    ]
+  },
+  {
+    "name": "兰州大学",
+    "province": "甘肃省",
+    "location": {
+      "longitude": 103.855301,
+      "latitude": 36.046177
+    },
+    "total_students": 14.0,
+    "departments": [
+      {
+        "department": "(021)资源环境学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)GIS空间分析与建模",
+        "number": "专业：14(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(814)遥感与地理信息系统"
+        }
+      },
+      {
+        "department": "(021)资源环境学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)地理信息技术及其应用",
+        "number": "专业：14(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(814)遥感与地理信息系统"
+        }
+      },
+      {
+        "department": "(021)资源环境学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)遥感机理与定量遥感",
+        "number": "专业：14(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(814)遥感与地理信息系统"
+        }
+      },
+      {
+        "department": "(021)资源环境学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(04)寒旱区环境遥感",
+        "number": "专业：14(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(814)遥感与地理信息系统"
+        }
+      },
+      {
+        "department": "(021)资源环境学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(05)生态遥感与生态评价",
+        "number": "专业：14(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(814)遥感与地理信息系统"
+        }
+      },
+      {
+        "department": "(021)资源环境学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(06)冰冻圈遥感",
+        "number": "专业：14(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(814)遥感与地理信息系统"
+        }
+      }
+    ]
+  },
+  {
+    "name": "西北师范大学",
+    "province": "甘肃省",
+    "location": {
+      "longitude": 103.733203,
+      "latitude": 36.099451
+    },
+    "total_students": 18.0,
+    "departments": [
+      {
+        "department": "(020)地理与环境科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)环境遥感与GIS应用",
+        "number": "专业：18(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(601)数学（理）",
+          "subject4": "(815)地理综合"
+        }
+      },
+      {
+        "department": "(020)地理与环境科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)城市遥感与空间经济分析",
+        "number": "专业：18(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(601)数学（理）",
+          "subject4": "(815)地理综合"
+        }
+      },
+      {
+        "department": "(020)地理与环境科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)定量遥感与应用",
+        "number": "专业：18(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(601)数学（理）",
+          "subject4": "(815)地理综合"
+        }
+      },
+      {
+        "department": "(020)地理与环境科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(04)空间分析与应用",
+        "number": "专业：18(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(601)数学（理）",
+          "subject4": "(815)地理综合"
+        }
+      },
+      {
+        "department": "(020)地理与环境科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(05)GIS设计与开发",
+        "number": "专业：18(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(601)数学（理）",
+          "subject4": "(815)地理综合"
+        }
+      }
+    ]
+  },
+  {
+    "name": "中山大学",
+    "province": "广东省",
+    "location": {
+      "longitude": 113.386355,
+      "latitude": 22.533581
+    },
+    "total_students": 26.0,
+    "departments": [
+      {
+        "department": "(370)地理科学与规划学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "专业：16(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(853)遥感与地理信息系统"
+        }
+      },
+      {
+        "department": "(773)测绘科学与技术学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "专业：10(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(853)遥感与地理信息系统"
+        }
+      }
+    ]
+  },
+  {
+    "name": "华南师范大学",
+    "province": "广东省",
+    "location": {
+      "longitude": 113.512806,
+      "latitude": 23.357213
+    },
+    "total_students": 8.0,
+    "departments": [
+      {
+        "department": "(017)地理科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)时空数据处理与挖掘",
+        "number": "专业：8(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(823)地理信息系统原理"
+        }
+      },
+      {
+        "department": "(017)地理科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)地理模拟与公共政策",
+        "number": "专业：8(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(823)地理信息系统原理"
+        }
+      },
+      {
+        "department": "(017)地理科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)虚拟地理环境",
+        "number": "专业：8(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(823)地理信息系统原理"
+        }
+      },
+      {
+        "department": "(017)地理科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(04)环境遥感与定量遥感",
+        "number": "专业：8(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(823)地理信息系统原理"
+        }
+      },
+      {
+        "department": "(017)地理科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(05)时空大数据与云计算",
+        "number": "专业：8(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(823)地理信息系统原理"
+        }
+      },
+      {
+        "department": "(017)地理科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(06)智慧工程与专题地理信息系统开发",
+        "number": "专业：8(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(823)地理信息系统原理"
+        }
+      },
+      {
+        "department": "(017)地理科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(07)空间综合人文与社会科学",
+        "number": "专业：8(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(823)地理信息系统原理"
+        }
+      }
+    ]
+  },
+  {
+    "name": "广州大学",
+    "province": "广东省",
+    "location": {
+      "longitude": 113.365055,
+      "latitude": 23.042471
+    },
+    "total_students": 5.0,
+    "departments": [
+      {
+        "department": "(001)地理科学与遥感学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)资源环境遥感",
+        "number": "专业：5(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(611)地理科学基础",
+          "subject4": "(811)地理信息系统"
+        }
+      },
+      {
+        "department": "(001)地理科学与遥感学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)智慧城市与时空大数据分析",
+        "number": "专业：5(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(611)地理科学基础",
+          "subject4": "(811)地理信息系统"
+        }
+      },
+      {
+        "department": "(001)地理科学与遥感学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)GIS空间分析与集成",
+        "number": "专业：5(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(611)地理科学基础",
+          "subject4": "(811)地理信息系统"
+        }
+      },
+      {
+        "department": "(001)地理科学与遥感学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(04)地理国情监测",
+        "number": "专业：5(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(611)地理科学基础",
+          "subject4": "(811)地理信息系统"
+        }
+      },
+      {
+        "department": "(001)地理科学与遥感学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(05)公共安全智能分析",
+        "number": "专业：5(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(611)地理科学基础",
+          "subject4": "(811)地理信息系统"
+        }
+      }
+    ]
+  },
+  {
+    "name": "南宁师范大学",
+    "province": "广西壮族自治区",
+    "location": {
+      "longitude": 108.342629,
+      "latitude": 22.834728
+    },
+    "total_students": 16.0,
+    "departments": [
+      {
+        "department": "(008)地理科学与规划学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)资源环境遥感",
+        "number": "专业：16(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(618)地理学综合（包括自然地理和人文地理）",
+          "subject4": "(810)地理信息系统"
+        }
+      },
+      {
+        "department": "(008)地理科学与规划学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)地理信息技术",
+        "number": "专业：16(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(618)地理学综合（包括自然地理和人文地理）",
+          "subject4": "(810)地理信息系统"
+        }
+      },
+      {
+        "department": "(008)地理科学与规划学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)空间信息智能处理",
+        "number": "专业：16(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(618)地理学综合（包括自然地理和人文地理）",
+          "subject4": "(810)地理信息系统"
+        }
+      },
+      {
+        "department": "(008)地理科学与规划学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(04)气象GIS",
+        "number": "专业：16(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(618)地理学综合（包括自然地理和人文地理）",
+          "subject4": "(810)地理信息系统"
+        }
+      },
+      {
+        "department": "(008)地理科学与规划学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(05)农业地理信息学",
+        "number": "专业：16(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(618)地理学综合（包括自然地理和人文地理）",
+          "subject4": "(810)地理信息系统"
+        }
+      }
+    ]
+  },
+  {
+    "name": "贵州师范大学",
+    "province": "贵州省",
+    "location": {
+      "longitude": 106.628887,
+      "latitude": 26.390415
+    },
+    "total_students": 23.0,
+    "departments": [
+      {
+        "department": "(009)地理与环境科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)地理信息技术与应用",
+        "number": "专业：14(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(723)自然地理学",
+          "subject4": "(837)人文地理学"
+        }
+      },
+      {
+        "department": "(009)地理与环境科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)遥感技术与应用",
+        "number": "专业：14(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(723)自然地理学",
+          "subject4": "(837)人文地理学"
+        }
+      },
+      {
+        "department": "(009)地理与环境科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)测绘技术与应用",
+        "number": "专业：14(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(723)自然地理学",
+          "subject4": "(837)人文地理学"
+        }
+      },
+      {
+        "department": "(017)喀斯特研究院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)地理信息系统与遥感",
+        "number": "专业：9(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(723)自然地理学",
+          "subject4": "(837)人文地理学"
+        }
+      }
+    ]
+  },
+  {
+    "name": "海南师范大学",
+    "province": "海南省",
+    "location": {
+      "longitude": 110.340589,
+      "latitude": 20.000152
+    },
+    "total_students": 2.0,
+    "departments": [
+      {
+        "department": "(008)地理与环境科学学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "研究方向：2(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(622)自然地理学",
+          "subject4": "(814)地理信息系统"
+        }
+      }
+    ]
+  },
+  {
+    "name": "河北师范大学",
+    "province": "河北省",
+    "location": {
+      "longitude": 114.511408,
+      "latitude": 37.9934
+    },
+    "total_students": 20.0,
+    "departments": [
+      {
+        "department": "(016)资源与环境科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)社会文化地理信息系统",
+        "number": "专业：20(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(729)地理信息科学",
+          "subject4": "(830)地理综合"
+        }
+      },
+      {
+        "department": "(016)资源与环境科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)遥感信息机理与环境遥感应用",
+        "number": "专业：20(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(729)地理信息科学",
+          "subject4": "(830)地理综合"
+        }
+      },
+      {
+        "department": "(016)资源与环境科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)数字国土与区域规划",
+        "number": "专业：20(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(729)地理信息科学",
+          "subject4": "(830)地理综合"
+        }
+      },
+      {
+        "department": "(016)资源与环境科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(04)空间数据模型与数据挖掘",
+        "number": "专业：20(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(729)地理信息科学",
+          "subject4": "(830)地理综合"
+        }
+      }
+    ]
+  },
+  {
+    "name": "华北水利水电大学",
+    "province": "河南省",
+    "location": {
+      "longitude": 113.668557,
+      "latitude": 34.81236
+    },
+    "total_students": 10.0,
+    "departments": [
+      {
+        "department": "(015)测绘与地理信息学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "专业：10(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(704)数学(自命题)",
+          "subject4": "(916)自然地理学"
+        }
+      }
+    ]
+  },
+  {
+    "name": "郑州大学",
+    "province": "河南省",
+    "location": {
+      "longitude": 113.527088,
+      "latitude": 34.821649
+    },
+    "total_students": 13.0,
+    "departments": [
+      {
+        "department": "(056)地球科学与技术学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "专业：13(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(988)自然地理学"
+        }
+      }
+    ]
+  },
+  {
+    "name": "河南理工大学",
+    "province": "河南省",
+    "location": {
+      "longitude": 113.88453,
+      "latitude": 34.793338
+    },
+    "total_students": 8.0,
+    "departments": [
+      {
+        "department": "(004)测绘与国土信息工程学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)地理信息综合与挖掘",
+        "number": "专业：8(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(822)地理信息系统"
+        }
+      },
+      {
+        "department": "(004)测绘与国土信息工程学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)网络GIS与地理信息工程",
+        "number": "专业：8(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(822)地理信息系统"
+        }
+      },
+      {
+        "department": "(004)测绘与国土信息工程学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(04)3S技术理论与应用",
+        "number": "专业：8(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(822)地理信息系统"
+        }
+      }
+    ]
+  },
+  {
+    "name": "河南大学",
+    "province": "河南省",
+    "location": {
+      "longitude": 113.53584,
+      "latitude": 34.79365
+    },
+    "total_students": 103.0,
+    "departments": [
+      {
+        "department": "(003)地理与环境学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "专业：70(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(601)高等数学",
+          "subject4": "(807)自然地理学、人文地理学、地理信息系统、生"
+        }
+      },
+      {
+        "department": "(024)黄河文明与可持续发展研究中心",
+        "specialty": "(070500)地理学",
+        "field": "(04)地图学与地理信息系统",
+        "number": "专业：33(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(601)高等数学",
+          "subject4": "(807)自然地理学、人文地理学、地理信息系统、生"
+        }
+      }
+    ]
+  },
+  {
+    "name": "信阳师范学院",
+    "province": "河南省",
+    "location": {
+      "longitude": 114.118498,
+      "latitude": 32.164548
+    },
+    "total_students": 3.0,
+    "departments": [
+      {
+        "department": "(010)地理科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(00)不区分研究方向",
+        "number": "研究方向：3(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(623)地理学综合",
+          "subject4": "(806)地理信息系统"
+        }
+      }
+    ]
+  },
+  {
+    "name": "河南财经政法大学",
+    "province": "河南省",
+    "location": {
+      "longitude": 113.814033,
+      "latitude": 34.783094
+    },
+    "total_students": 3.0,
+    "departments": [
+      {
+        "department": "(017)资源与环境学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)城市与区域信息系统",
+        "number": "专业：3(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(601)高等数学",
+          "subject4": "(806)人文地理学、自然地理学"
+        }
+      },
+      {
+        "department": "(017)资源与环境学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)3S技术综合应用",
+        "number": "专业：3(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(601)高等数学",
+          "subject4": "(806)人文地理学、自然地理学"
+        }
+      },
+      {
+        "department": "(017)资源与环境学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)室内外定位导航技术及其应用",
+        "number": "专业：3(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(601)高等数学",
+          "subject4": "(806)人文地理学、自然地理学"
+        }
+      }
+    ]
+  },
+  {
+    "name": "武汉大学",
+    "province": "湖北省",
+    "location": {
+      "longitude": 114.359719,
+      "latitude": 30.540183
+    },
+    "total_students": 24.0,
+    "departments": [
+      {
+        "department": "(205)资源与环境科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)地理信息科学理论及其应用",
+        "number": "专业：16(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(890)地理信息系统原理"
+        }
+      },
+      {
+        "department": "(205)资源与环境科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)ICT时代地理信息技术",
+        "number": "专业：16(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(890)地理信息系统原理"
+        }
+      },
+      {
+        "department": "(205)资源与环境科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)空间信息可视化与分析",
+        "number": "专业：16(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(890)地理信息系统原理"
+        }
+      },
+      {
+        "department": "(205)资源与环境科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(04)数字孪生与智慧城市",
+        "number": "专业：16(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(890)地理信息系统原理"
+        }
+      },
+      {
+        "department": "(205)资源与环境科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(05)地理空间认知",
+        "number": "专业：16(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(890)地理信息系统原理"
+        }
+      },
+      {
+        "department": "(205)资源与环境科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(06)时空大数据与智能计算",
+        "number": "专业：16(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(890)地理信息系统原理"
+        }
+      },
+      {
+        "department": "(205)资源与环境科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(07)高精地图与自动驾驶",
+        "number": "专业：16(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(890)地理信息系统原理"
+        }
+      },
+      {
+        "department": "(205)资源与环境科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(08)3S集成理论与方法",
+        "number": "专业：16(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(890)地理信息系统原理"
+        }
+      },
+      {
+        "department": "(213)遥感信息工程学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(00)不区分研究方向",
+        "number": "专业：4(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(890)地理信息系统原理"
+        }
+      },
+      {
+        "department": "(619)测绘遥感信息工程国家重点实验室",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)空间数据标准和精度",
+        "number": "专业：4(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(890)地理信息系统原理"
+        }
+      },
+      {
+        "department": "(619)测绘遥感信息工程国家重点实验室",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)时空数据模型",
+        "number": "专业：4(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(890)地理信息系统原理"
+        }
+      },
+      {
+        "department": "(619)测绘遥感信息工程国家重点实验室",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)多尺度空间数据表示",
+        "number": "专业：4(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(890)地理信息系统原理"
+        }
+      },
+      {
+        "department": "(619)测绘遥感信息工程国家重点实验室",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(04)3S集成",
+        "number": "专业：4(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(890)地理信息系统原理"
+        }
+      },
+      {
+        "department": "(619)测绘遥感信息工程国家重点实验室",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(05)移动GIS",
+        "number": "专业：4(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(890)地理信息系统原理"
+        }
+      },
+      {
+        "department": "(619)测绘遥感信息工程国家重点实验室",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(06)网络GIS",
+        "number": "专业：4(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(890)地理信息系统原理"
+        }
+      }
+    ]
+  },
+  {
+    "name": "中国地质大学(武汉)",
+    "province": "湖北省",
+    "location": {
+      "longitude": 114.394523,
+      "latitude": 30.531134
+    },
+    "total_students": 33.0,
+    "departments": [
+      {
+        "department": "(201)地理与信息工程学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "专业：33(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(920)综合自然地理学"
+        }
+      }
+    ]
+  },
+  {
+    "name": "华中师范大学",
+    "province": "湖北省",
+    "location": {
+      "longitude": 114.36085,
+      "latitude": 30.51899
+    },
+    "total_students": 29.0,
+    "departments": [
+      {
+        "department": "(014)城市与环境科学学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "专业：29(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(848)地理信息科学综合"
+        }
+      },
+      {
+        "department": "(014)城市与环境科学学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "专业：1(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(848)地理信息科学综合"
+        }
+      }
+    ]
+  },
+  {
+    "name": "湖北大学",
+    "province": "湖北省",
+    "location": {
+      "longitude": 114.326133,
+      "latitude": 30.578938
+    },
+    "total_students": 33.0,
+    "departments": [
+      {
+        "department": "(206)资源环境学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "专业：33(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(618)地理学基础一",
+          "subject4": "(821)地理学基础二"
+        }
+      }
+    ]
+  },
+  {
+    "name": "湖北师范大学",
+    "province": "湖北省",
+    "location": {
+      "longitude": 114.357865,
+      "latitude": 30.51913
+    },
+    "total_students": 7.0,
+    "departments": [
+      {
+        "department": "(011)城市与环境学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(00)不区分研究方向",
+        "number": "专业：7(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(710)地理学基础",
+          "subject4": "(840)地理信息系统概论"
+        }
+      }
+    ]
+  },
+  {
+    "name": "湖南师范大学",
+    "province": "湖南省",
+    "location": {
+      "longitude": 112.949737,
+      "latitude": 28.192215
+    },
+    "total_students": 12.0,
+    "departments": [
+      {
+        "department": "(013)地理科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(00)不区分研究方向",
+        "number": "专业：12(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(602)高等数学",
+          "subject4": "(903)地理信息系统概论"
+        }
+      }
+    ]
+  },
+  {
+    "name": "衡阳师范学院",
+    "province": "湖南省",
+    "location": {
+      "longitude": 112.675481,
+      "latitude": 26.879254
+    },
+    "total_students": 41.0,
+    "departments": [
+      {
+        "department": "(012)地理与旅游学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "专业：41(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(611)人文地理学",
+          "subject4": "(811)自然地理学"
+        }
+      }
+    ]
+  },
+  {
+    "name": "延边大学",
+    "province": "吉林省",
+    "location": {
+      "longitude": 129.481372,
+      "latitude": 42.909563
+    },
+    "total_students": 25.0,
+    "departments": [
+      {
+        "department": "(016)地理与海洋科学学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "专业：25(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(626)地理综合1",
+          "subject4": "(827)地理综合2"
+        }
+      }
+    ]
+  },
+  {
+    "name": "东北师范大学",
+    "province": "吉林省",
+    "location": {
+      "longitude": 125.326955,
+      "latitude": 43.860314
+    },
+    "total_students": 14.0,
+    "departments": [
+      {
+        "department": "(125)地理科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(00)不区分研究方向",
+        "number": "专业：14(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(634)数学（地）",
+          "subject4": "(802)地理学基础"
+        }
+      }
+    ]
+  },
+  {
+    "name": "吉林师范大学",
+    "province": "吉林省",
+    "location": {
+      "longitude": 125.207527,
+      "latitude": 43.777825
+    },
+    "total_students": 10.0,
+    "departments": [
+      {
+        "department": "(016)旅游与地理科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(00)不区分研究方向",
+        "number": "专业：10(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(635)地理信息系统原理",
+          "subject4": "(833)自然地理学"
+        }
+      }
+    ]
+  },
+  {
+    "name": "长春师范大学",
+    "province": "吉林省",
+    "location": {
+      "longitude": 125.385911,
+      "latitude": 43.907616
+    },
+    "total_students": 16.0,
+    "departments": [
+      {
+        "department": "(009)地理科学学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "专业：16(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(691)自然地理学",
+          "subject4": "(891)人文地理学"
+        }
+      }
+    ]
+  },
+  {
+    "name": "南京大学",
+    "province": "江苏省",
+    "location": {
+      "longitude": 118.956241,
+      "latitude": 32.112166
+    },
+    "total_students": 8.0,
+    "departments": [
+      {
+        "department": "(027)地理与海洋科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)地图学研究与地图设计",
+        "number": "专业：8(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(815)地理信息系统概论"
+        }
+      },
+      {
+        "department": "(027)地理与海洋科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)GIS设计、开发与应用",
+        "number": "专业：8(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(815)地理信息系统概论"
+        }
+      },
+      {
+        "department": "(027)地理与海洋科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)遥感地学分析",
+        "number": "专业：8(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(815)地理信息系统概论"
+        }
+      },
+      {
+        "department": "(027)地理与海洋科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(04)虚拟地理环境",
+        "number": "专业：8(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(815)地理信息系统概论"
+        }
+      },
+      {
+        "department": "(027)地理与海洋科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(05)空间分析与地理建模",
+        "number": "专业：8(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(815)地理信息系统概论"
+        }
+      },
+      {
+        "department": "(027)地理与海洋科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(06)3S技术集成与应用",
+        "number": "专业：8(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(815)地理信息系统概论"
+        }
+      },
+      {
+        "department": "(027)地理与海洋科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(07)时空大数据分析及应用",
+        "number": "专业：8(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(815)地理信息系统概论"
+        }
+      },
+      {
+        "department": "(027)地理与海洋科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(08)海洋及南海GIS",
+        "number": "专业：8(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(815)地理信息系统概论"
+        }
+      }
+    ]
+  },
+  {
+    "name": "中国矿业大学",
+    "province": "江苏省",
+    "location": {
+      "longitude": 117.194275,
+      "latitude": 34.222417
+    },
+    "total_students": 3.0,
+    "departments": [
+      {
+        "department": "(001)资源与地球科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)应用地理信息系统",
+        "number": "专业：3(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(805)地理信息系统"
+        }
+      },
+      {
+        "department": "(001)资源与地球科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)数字城乡规划",
+        "number": "专业：3(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(805)地理信息系统"
+        }
+      },
+      {
+        "department": "(001)资源与地球科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(04)数字矿山多元地质信息集成",
+        "number": "专业：3(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(805)地理信息系统"
+        }
+      },
+      {
+        "department": "(001)资源与地球科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(05)资源环境遥感",
+        "number": "专业：3(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(805)地理信息系统"
+        }
+      }
+    ]
+  },
+  {
+    "name": "河海大学",
+    "province": "江苏省",
+    "location": {
+      "longitude": 119.975543,
+      "latitude": 31.820964
+    },
+    "total_students": 11.0,
+    "departments": [
+      {
+        "department": "(001)水文水资源学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)GIS空间分析与建模",
+        "number": "专业：11(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(823)地理信息系统"
+        }
+      },
+      {
+        "department": "(001)水文水资源学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)GIS设计、开发与应用",
+        "number": "专业：11(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(823)地理信息系统"
+        }
+      },
+      {
+        "department": "(001)水文水资源学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)遥感技术应用",
+        "number": "专业：11(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(823)地理信息系统"
+        }
+      },
+      {
+        "department": "(001)水文水资源学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(04)数字流域、数字海洋",
+        "number": "专业：11(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(823)地理信息系统"
+        }
+      }
+    ]
+  },
+  {
+    "name": "南京师范大学",
+    "province": "江苏省",
+    "location": {
+      "longitude": 118.907242,
+      "latitude": 32.104857
+    },
+    "total_students": 59.0,
+    "departments": [
+      {
+        "department": "(013)地理科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)地理信息科学",
+        "number": "专业：59(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(844)地理信息系统"
+        }
+      },
+      {
+        "department": "(013)地理科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)地理信息技术",
+        "number": "专业：59(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(845)C语言程序设计（含数据结构）"
+        }
+      }
+    ]
+  },
+  {
+    "name": "江苏师范大学",
+    "province": "江苏省",
+    "location": {
+      "longitude": 118.740935,
+      "latitude": 32.021886
+    },
+    "total_students": 8.0,
+    "departments": [
+      {
+        "department": "(015)地理测绘与城乡规划学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(00)不区分研究方向",
+        "number": "专业：8(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(601)高等数学",
+          "subject4": "(879)地理学基础"
+        }
+      }
+    ]
+  },
+  {
+    "name": "东华理工大学",
+    "province": "江西省",
+    "location": {
+      "longitude": 116.349687,
+      "latitude": 28.005025
+    },
+    "total_students": 55.0,
+    "departments": [
+      {
+        "department": "(001)地球科学学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "专业：30(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(611)自然地理学",
+          "subject4": "(801)人文地理学"
+        }
+      },
+      {
+        "department": "(011)测绘工程学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "专业：25(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(611)自然地理学",
+          "subject4": "(802)地理信息系统原理"
+        }
+      }
+    ]
+  },
+  {
+    "name": "江西师范大学",
+    "province": "江西省",
+    "location": {
+      "longitude": 116.021935,
+      "latitude": 28.684472
+    },
+    "total_students": 16.0,
+    "departments": [
+      {
+        "department": "(003)地理与环境学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)地理信息工程",
+        "number": "专业：16(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(873)地理信息系统概论"
+        }
+      },
+      {
+        "department": "(003)地理与环境学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)资源环境遥感",
+        "number": "专业：16(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(873)地理信息系统概论"
+        }
+      },
+      {
+        "department": "(003)地理与环境学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)地理大数据信息挖掘",
+        "number": "专业：16(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(873)地理信息系统概论"
+        }
+      },
+      {
+        "department": "(003)地理与环境学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(04)3S技术及其综合应用",
+        "number": "专业：16(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(873)地理信息系统概论"
+        }
+      }
+    ]
+  },
+  {
+    "name": "辽宁师范大学",
+    "province": "辽宁省",
+    "location": {
+      "longitude": 123.403376,
+      "latitude": 41.906062
+    },
+    "total_students": 23.0,
+    "departments": [
+      {
+        "department": "(130)地理科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(00)不区分研究方向",
+        "number": "专业：23(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(722)地理信息系统原理",
+          "subject4": "(826)遥感概论"
+        }
+      }
+    ]
+  },
+  {
+    "name": "内蒙古师范大学",
+    "province": "内蒙古自治区",
+    "location": {
+      "longitude": 111.781482,
+      "latitude": 40.490088
+    },
+    "total_students": 55.0,
+    "departments": [
+      {
+        "department": "(017)地理科学学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "专业：55(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(601)高等数学",
+          "subject4": "(832)地理学基础"
+        }
+      }
+    ]
+  },
+  {
+    "name": "宁夏大学",
+    "province": "宁夏回族自治区",
+    "location": {
+      "longitude": 106.127762,
+      "latitude": 38.502584
+    },
+    "total_students": 30.0,
+    "departments": [
+      {
+        "department": "(012)地理科学与规划学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "专业：30(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(712)地理信息系统",
+          "subject4": "(825)地理综合"
+        }
+      }
+    ]
+  },
+  {
+    "name": "青海师范大学",
+    "province": "青海省",
+    "location": {
+      "longitude": 101.740901,
+      "latitude": 36.639429
+    },
+    "total_students": 42.0,
+    "departments": [
+      {
+        "department": "(047)地理科学学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "专业：42(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(656)自然地理学",
+          "subject4": "(870)人文地理学"
+        }
+      }
+    ]
+  },
+  {
+    "name": "山东科技大学",
+    "province": "山东省",
+    "location": {
+      "longitude": 116.96697,
+      "latitude": 36.677836
+    },
+    "total_students": 17.0,
+    "departments": [
+      {
+        "department": "(002)测绘与空间信息学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "专业：17(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(805)地理信息系统"
+        }
+      }
+    ]
+  },
+  {
+    "name": "山东师范大学",
+    "province": "山东省",
+    "location": {
+      "longitude": 117.031475,
+      "latitude": 36.650586
+    },
+    "total_students": 13.0,
+    "departments": [
+      {
+        "department": "(015)地理与环境学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)资源环境信息系统设计与开发",
+        "number": "专业：13(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(721)高等数学A",
+          "subject4": "(828)地理学基础"
+        }
+      },
+      {
+        "department": "(015)地理与环境学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)地理信息系统技术与应用",
+        "number": "专业：13(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(721)高等数学A",
+          "subject4": "(828)地理学基础"
+        }
+      },
+      {
+        "department": "(015)地理与环境学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)遥感信息分析与应用",
+        "number": "专业：13(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(721)高等数学A",
+          "subject4": "(828)地理学基础"
+        }
+      }
+    ]
+  },
+  {
+    "name": "曲阜师范大学",
+    "province": "山东省",
+    "location": {
+      "longitude": 116.961496,
+      "latitude": 35.595476
+    },
+    "total_students": 26.0,
+    "departments": [
+      {
+        "department": "(107)地理与旅游学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "专业：26(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(763)人文地理学",
+          "subject4": "(863)自然地理学"
+        }
+      }
+    ]
+  },
+  {
+    "name": "山西师范大学",
+    "province": "山西省",
+    "location": {
+      "longitude": 111.507301,
+      "latitude": 36.080383
+    },
+    "total_students": 5.0,
+    "departments": [
+      {
+        "department": "(013)地理科学学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "研究方向：5(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(623)地理综合",
+          "subject4": "(822)遥感-地理信息系统"
+        }
+      }
+    ]
+  },
+  {
+    "name": "西北大学",
+    "province": "陕西省",
+    "location": {
+      "longitude": 108.922795,
+      "latitude": 34.250138
+    },
+    "total_students": 30.0,
+    "departments": [
+      {
+        "department": "(022)城市与环境学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "专业：30(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(848)地理信息系统"
+        }
+      }
+    ]
+  },
+  {
+    "name": "长安大学",
+    "province": "陕西省",
+    "location": {
+      "longitude": 108.950361,
+      "latitude": 34.230532
+    },
+    "total_students": 14.0,
+    "departments": [
+      {
+        "department": "(008)地球科学与资源学院",
+        "specialty": "(070500)地理学",
+        "field": "(02)地图学与地理信息系统",
+        "number": "专业：14(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(619)自然地理学",
+          "subject4": "(824)地理信息系统原理"
+        }
+      }
+    ]
+  },
+  {
+    "name": "陕西师范大学",
+    "province": "陕西省",
+    "location": {
+      "longitude": 108.947878,
+      "latitude": 34.206386
+    },
+    "total_students": 7.0,
+    "departments": [
+      {
+        "department": "(017)地理科学与旅游学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)地理建模与可视化",
+        "number": "专业：7(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(808)地理学综合"
+        }
+      },
+      {
+        "department": "(017)地理科学与旅游学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)生态环境遥感与GIS",
+        "number": "专业：7(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(808)地理学综合"
+        }
+      },
+      {
+        "department": "(017)地理科学与旅游学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)地学大数据分析与应用",
+        "number": "专业：7(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(808)地理学综合"
+        }
+      }
+    ]
+  },
+  {
+    "name": "宝鸡文理学院",
+    "province": "陕西省",
+    "location": {
+      "longitude": 107.205958,
+      "latitude": 34.348262
+    },
+    "total_students": 6.0,
+    "departments": [
+      {
+        "department": "(003)地理与环境学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(00)不区分研究方向",
+        "number": "专业：6(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(615)人文地理学",
+          "subject4": "(806)自然地理学"
+        }
+      }
+    ]
+  },
+  {
+    "name": "华东师范大学",
+    "province": "上海市",
+    "location": {
+      "longitude": 121.386275,
+      "latitude": 31.23229
+    },
+    "total_students": 7.0,
+    "departments": [
+      {
+        "department": "(131)地理科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)专题地图编制与设计",
+        "number": "专业：7(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(882)地理信息系统概论"
+        }
+      },
+      {
+        "department": "(131)地理科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)遥感科学与应用",
+        "number": "专业：7(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(882)地理信息系统概论"
+        }
+      },
+      {
+        "department": "(131)地理科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)地理信息系统",
+        "number": "专业：7(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(882)地理信息系统概论"
+        }
+      },
+      {
+        "department": "(131)地理科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(04)卫星定位导航信息技术",
+        "number": "专业：7(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(882)地理信息系统概论"
+        }
+      },
+      {
+        "department": "(131)地理科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(05)地理计算",
+        "number": "专业：7(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(882)地理信息系统概论"
+        }
+      },
+      {
+        "department": "(131)地理科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(06)地球系统模拟",
+        "number": "专业：7(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(882)地理信息系统概论"
+        }
+      }
+    ]
+  },
+  {
+    "name": "上海师范大学",
+    "province": "上海市",
+    "location": {
+      "longitude": 121.449114,
+      "latitude": 31.033556
+    },
+    "total_students": 14.0,
+    "departments": [
+      {
+        "department": "(127)环境与地理科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)城市遥感与GIS应用",
+        "number": "专业：14(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(817)GIS综合"
+        }
+      }
+    ]
+  },
+  {
+    "name": "成都理工大学",
+    "province": "四川省",
+    "location": {
+      "longitude": 104.144755,
+      "latitude": 30.677348
+    },
+    "total_students": 37.0,
+    "departments": [
+      {
+        "department": "(001)地球科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)生态地理信息系统",
+        "number": "专业：37(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(601)高等数学",
+          "subject4": "(804)地理信息系统概论"
+        }
+      },
+      {
+        "department": "(001)地球科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)信息技术及其在地学中的应用",
+        "number": "专业：37(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(601)高等数学",
+          "subject4": "(804)地理信息系统概论"
+        }
+      },
+      {
+        "department": "(001)地球科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(04)遥感地学应用",
+        "number": "专业：37(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(601)高等数学",
+          "subject4": "(804)地理信息系统概论"
+        }
+      }
+    ]
+  },
+  {
+    "name": "四川师范大学",
+    "province": "四川省",
+    "location": {
+      "longitude": 104.12176,
+      "latitude": 30.609971
+    },
+    "total_students": 7.0,
+    "departments": [
+      {
+        "department": "(011)地理与资源科学学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "研究方向：7(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(633)自然地理",
+          "subject4": "(833)人文地理"
+        }
+      }
+    ]
+  },
+  {
+    "name": "西华师范大学",
+    "province": "四川省",
+    "location": {
+      "longitude": 106.084646,
+      "latitude": 30.799857
+    },
+    "total_students": 27.0,
+    "departments": [
+      {
+        "department": "(110)地理科学学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "专业：27(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(618)自然地理学",
+          "subject4": "(833)人文地理学"
+        }
+      }
+    ]
+  },
+  {
+    "name": "天津师范大学",
+    "province": "天津市",
+    "location": {
+      "longitude": 117.113975,
+      "latitude": 39.055812
+    },
+    "total_students": 8.0,
+    "departments": [
+      {
+        "department": "(008)地理与环境科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)地理信息科学与技术",
+        "number": "专业：8(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(813)地理信息系统综合"
+        }
+      },
+      {
+        "department": "(008)地理与环境科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)定量遥感原理与方法",
+        "number": "专业：8(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(813)地理信息系统综合"
+        }
+      },
+      {
+        "department": "(008)地理与环境科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)地理信息智能服务",
+        "number": "专业：8(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(813)地理信息系统综合"
+        }
+      }
+    ]
+  },
+  {
+    "name": "新疆大学",
+    "province": "新疆维吾尔自治区",
+    "location": {
+      "longitude": 87.613313,
+      "latitude": 43.763808
+    },
+    "total_students": 77.0,
+    "departments": [
+      {
+        "department": "(016)资源与环境科学学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "专业：77(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(714)自然地理学",
+          "subject4": "(819)遥感与地理信息系统"
+        }
+      }
+    ]
+  },
+  {
+    "name": "石河子大学",
+    "province": "新疆维吾尔自治区",
+    "location": {
+      "longitude": 86.068636,
+      "latitude": 44.308198
+    },
+    "total_students": 9.0,
+    "departments": [
+      {
+        "department": "(018)理学院",
+        "specialty": "(070500)地理学",
+        "field": "(03)地图学与地理信息系统",
+        "number": "专业：9(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(818)自然地理学"
+        }
+      }
+    ]
+  },
+  {
+    "name": "新疆师范大学",
+    "province": "新疆维吾尔自治区",
+    "location": {
+      "longitude": 87.706134,
+      "latitude": 43.803315
+    },
+    "total_students": 16.0,
+    "departments": [
+      {
+        "department": "(012)地理科学与旅游学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)资源环境遥感",
+        "number": "专业：16(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(712)自然地理学",
+          "subject4": "(817)人文地理学"
+        }
+      },
+      {
+        "department": "(012)地理科学与旅游学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)空间信息分析与应用",
+        "number": "专业：16(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(712)自然地理学",
+          "subject4": "(817)人文地理学"
+        }
+      }
+    ]
+  },
+  {
+    "name": "云南大学",
+    "province": "云南省",
+    "location": {
+      "longitude": 102.69916,
+      "latitude": 25.05594
+    },
+    "total_students": 14.0,
+    "departments": [
+      {
+        "department": "(018)地球科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)资源与环境地理信息系统",
+        "number": "专业：7(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(838)综合地理学"
+        }
+      },
+      {
+        "department": "(018)地球科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)遥感技术方法与应用",
+        "number": "专业：7(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(838)综合地理学"
+        }
+      },
+      {
+        "department": "(018)地球科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)数字区域与数字城市空间信息系统",
+        "number": "专业：7(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(838)综合地理学"
+        }
+      },
+      {
+        "department": "(018)地球科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(04)山地生态信息系统",
+        "number": "专业：7(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(838)综合地理学"
+        }
+      },
+      {
+        "department": "(018)地球科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(05)GIS与综合信息成矿预测",
+        "number": "专业：7(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(838)综合地理学"
+        }
+      },
+      {
+        "department": "(027)国际河流与生态安全研究院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)资源环境遥感",
+        "number": "专业：7(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(838)综合地理学"
+        }
+      },
+      {
+        "department": "(027)国际河流与生态安全研究院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)地理大数据与智慧流域",
+        "number": "专业：7(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(303)数学（三）",
+          "subject4": "(838)综合地理学"
+        }
+      }
+    ]
+  },
+  {
+    "name": "云南师范大学",
+    "province": "云南省",
+    "location": {
+      "longitude": 102.694635,
+      "latitude": 25.059068
+    },
+    "total_students": 31.0,
+    "departments": [
+      {
+        "department": "(018)地理学部",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)资源与环境遥感",
+        "number": "专业：31(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(723)地理信息科学导论",
+          "subject4": "(835)地图学基础"
+        }
+      },
+      {
+        "department": "(018)地理学部",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)城市地理信息系统",
+        "number": "专业：31(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(723)地理信息科学导论",
+          "subject4": "(835)地图学基础"
+        }
+      },
+      {
+        "department": "(018)地理学部",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)无人机影像处理及应用",
+        "number": "专业：31(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(723)地理信息科学导论",
+          "subject4": "(835)地图学基础"
+        }
+      },
+      {
+        "department": "(018)地理学部",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(04)遥感技术应用",
+        "number": "专业：31(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(723)地理信息科学导论",
+          "subject4": "(835)地图学基础"
+        }
+      }
+    ]
+  },
+  {
+    "name": "浙江师范大学",
+    "province": "浙江省",
+    "location": {
+      "longitude": 120.134546,
+      "latitude": 30.28471
+    },
+    "total_students": 11.0,
+    "departments": [
+      {
+        "department": "(185)地理与环境科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(00)不区分研究方向",
+        "number": "专业：11(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(843)自然地理学"
+        }
+      }
+    ]
+  },
+  {
+    "name": "西南大学",
+    "province": "重庆市",
+    "location": {
+      "longitude": 106.415063,
+      "latitude": 29.822752
+    },
+    "total_students": 16.0,
+    "departments": [
+      {
+        "department": "(318)地理科学学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(00)不区分研究方向",
+        "number": "专业：16(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(302)数学（二）",
+          "subject4": "(882)地理信息系统基础"
+        }
+      }
+    ]
+  },
+  {
+    "name": "重庆师范大学",
+    "province": "重庆市",
+    "location": {
+      "longitude": 106.45147,
+      "latitude": 29.560811
+    },
+    "total_students": 9.0,
+    "departments": [
+      {
+        "department": "(008)地理与旅游学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(01)空间数据挖掘与分析",
+        "number": "专业：9(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(624)遥感与地理信息系统",
+          "subject4": "(832)自然地理学"
+        }
+      },
+      {
+        "department": "(008)地理与旅游学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(02)资源环境遥感应用",
+        "number": "专业：9(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(624)遥感与地理信息系统",
+          "subject4": "(832)自然地理学"
+        }
+      },
+      {
+        "department": "(008)地理与旅游学院",
+        "specialty": "(070503)地图学与地理信息系统",
+        "field": "(03)地理信息方法与技术",
+        "number": "专业：9(不含推免)",
+        "subjects": {
+          "subject1": "(101)思想政治理论",
+          "subject2": "(201)英语（一）",
+          "subject3": "(624)遥感与地理信息系统",
+          "subject4": "(832)自然地理学"
+        }
+      }
+    ]
+  }
+]
